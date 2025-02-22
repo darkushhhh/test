@@ -2,8 +2,7 @@
 
 
 ## 🛠️ Технологический стек:
-![Kali Linux](https://img.shields.io/badge/-Kali%20Linux-blue?logo=kali-linux&logoColor=white)  
-![Docker](https://img.shields.io/badge/-Docker-blue?logo=docker&logoColor=white)  
+![Kali Linux](https://img.shields.io/badge/-Kali%20Linux-blue?logo=kali-linux&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-blue?logo=docker&logoColor=white)  
 ![Censys](https://img.shields.io/badge/-Censys-orange?logo=security&logoColor=white)  
 ![Shodan](https://img.shields.io/badge/-Shodan-red?logo=shodan&logoColor=white)  
 ![theHarvester](https://img.shields.io/badge/-theHarvester-lightgrey?logo=linux&logoColor=white)  
