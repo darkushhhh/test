@@ -1,4 +1,4 @@
-# Этап №1. OSINT Исследование
+# Этап №1. OSINT
 
 ## Инструменты OSINT
 
@@ -55,7 +55,7 @@
 
 **Результаты сканирования:**  
 <details>
-<summary>Скриншот</summary>
+<summary>screenshot ZoomEye</summary>
 ![](pic/ZoomEye.png)
 </details>
 
@@ -82,4 +82,8 @@
 
 ---
 
-Далее: Страница [**OSINT**](./osint.md)
+## Перейти к следующей странице
+ 
+Далее: Этап №2. [**SCANNING**](./SCANNING.md)
+
+---
