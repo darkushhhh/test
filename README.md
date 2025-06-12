@@ -18,7 +18,7 @@
 
 **Результаты сканирования:**  
 <details>
-<summary>Скриншот Shodan</summary>
+<summary>screenshot Shodan</summary>
 ![](pic/Shodan.png)
 </details>
 
@@ -41,9 +41,9 @@
 </details>
 
 **Вывод:**
-- Обнаружены открытые порты с развернутыми сервисами:
-  - **22 (SSH)** — OpenBSD OpenSSH 8.2
-  - **8050 (HTTP)** — Apache HTTPD 2.4.7, PHP 5.5.9
+Обнаружены открытые порты с развернутыми сервисами:
+- **22 (SSH)** — OpenBSD OpenSSH 8.2
+- **8050 (HTTP)** — Apache HTTPD 2.4.7, PHP 5.5.9
 
 ---
 
