@@ -18,7 +18,7 @@
 
 **Результаты сканирования:**  
 <details>
-<summary>Скриншот результатов сканирования</summary>
+<summary>Скриншот Shodan</summary>
 ![](pic/Shodan.png)
 </details>
 
@@ -29,7 +29,7 @@
 
 ---
 
-### Пункт 2: Анализ в Censys Search
+### 2. Censys Search
 
 **Входные данные:**
 - IP-адрес: `92.51.39.106`
