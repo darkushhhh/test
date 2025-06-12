@@ -36,11 +36,12 @@
 
 **Результаты сканирования:**  
 <details>
-<summary>Скриншот</summary>
+<summary>screenshot Censys Search</summary>
 ![](pic/Censys.png)
 </details>
 
 **Вывод:**
+
 Обнаружены открытые порты с развернутыми сервисами:
 - **22 (SSH)** — OpenBSD OpenSSH 8.2
 - **8050 (HTTP)** — Apache HTTPD 2.4.7, PHP 5.5.9
