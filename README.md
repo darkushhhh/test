@@ -67,8 +67,14 @@
 ## Итоги OSINT исследования
 
 На основании анализа, проведенного с использованием сканеров Shodan, Censys Search и ZoomEye, установлено, что на IP-адресе `92.51.39.106` развернуты два веб-приложения:
-- **Beemer** (порт 7788)
-- **NetologyVulnApp.com** (порт 8050)
+- <details>
+<summary>Скриншот результатов сканирования</summary>
+![](pic/Shodan.png)
+</details>
+- <details>
+<summary>Скриншот результатов сканирования</summary>
+![](pic/Shodan.png)
+</details>
 
 <details>
 <summary>Скриншоты обнаруженных сайтов</summary>
