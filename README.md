@@ -18,7 +18,7 @@
 
 **Результаты сканирования:**  
 <details>
-<summary>Shodan</summary>
+<summary>Скриншот результата сканирования</summary>
 ![](pic/Shodan.png)
 </details>
 
