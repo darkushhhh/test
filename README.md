@@ -19,7 +19,7 @@
 **Результаты сканирования:**  
 <details>
 <summary>screenshot Shodan</summary>
-![](pic/Shodan.png)
+![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
 **Вывод:**  
@@ -37,7 +37,7 @@
 **Результаты сканирования:**  
 <details>
 <summary>screenshot Censys Search</summary>
-![](pic/Censys.png)
+![](screenshots/OSINT/Censys/censys 1.png)
 </details>
 
 **Вывод:**
@@ -56,7 +56,7 @@
 **Результаты сканирования:**  
 <details>
 <summary>screenshot ZoomEye</summary>
-![](pic/ZoomEye.png)
+![](screenshots/OSINT/ZoomEye/ZoomEye.png)
 </details>
 
 **Вывод:**
