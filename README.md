@@ -67,19 +67,15 @@
 ## Итоги OSINT исследования
 
 На основании анализа, проведенного с использованием сканеров Shodan, Censys Search и ZoomEye, установлено, что на IP-адресе `92.51.39.106` развернуты два веб-приложения:
-- <details>
-<summary>Скриншот результатов сканирования</summary>
-![](pic/Shodan.png)
-</details>
-- <details>
+
+<details>
 <summary>Скриншот результатов сканирования</summary>
 ![](pic/Shodan.png)
 </details>
 
 <details>
-<summary>Скриншоты обнаруженных сайтов</summary>
-![](pic/NetologyVulnApp.com.png)
-![](pic/Beemer.png)
+<summary>Скриншот результатов сканирования</summary>
+![](pic/Shodan.png)
 </details>
 
 ---
