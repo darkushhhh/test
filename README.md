@@ -72,12 +72,12 @@
 
 <details>
 <summary>Beemer (7788)</summary>
-![](pic/Shodan.png)
+![](screenshots/OSINT/sites/7788.png)
 </details>
 
 <details>
 <summary>NetologyVulnApp.com (8050)</summary>
-![](pic/Shodan.png)
+![](screenshots/OSINT/sites/8050.png)
 </details>
 
 ---
