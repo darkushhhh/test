@@ -1,4 +1,4 @@
-# Отчет по OSINT и сканированию IP-адреса 92.51.39.106
+# Этап №1. OSINT Исследование
 
 ## Инструменты OSINT
 
@@ -18,7 +18,7 @@
 
 **Результаты сканирования:**  
 <details>
-<summary>Скриншот</summary>
+<summary>Shodan</summary>
 ![](pic/Shodan.png)
 </details>
 
