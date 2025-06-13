@@ -55,4 +55,14 @@ ___
 
 ## Тестирование NetologyVulnApp.com (8050)
 
-### 1. Vulnerability - **Path Traversal**
+### 1. Vulnerability - Path Traversal
+
+**OWASP:**
+
+**Уровень риска:**
+
+**Целевая страница:**
+
+**Реализация:**
+
+**Рекомендации по устранению:**
