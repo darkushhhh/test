@@ -51,7 +51,9 @@
 - веб-приложение, доступное по адресу `92.51.39.106:8050`
 
 **Конфигурация:**  
-- ```nmap -A -sV --version-all -O -p 8050 --reason -T4 --defeat-rst-ratelimit 92.51.39.106```
+```
+nmap -A -sV --version-all -O -p 8050 --reason -T4 --defeat-rst-ratelimit 92.51.39.106
+```
 
 **Результат:**  
 
