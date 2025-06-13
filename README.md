@@ -50,7 +50,7 @@ nmap -A -sV --version-all -O -p 8050 --reason -T4 --defeat-rst-ratelimit 92.51.3
 - [OWASP Cheat Sheets](https://cheatsheetseries.owasp.org/)
 - [Книга Андрея Бирюкова «Информационная безопасность. Защита и нападение»](https://dmkpress.com/catalog/computer/securuty/978-5-93700-219-8/?srsltid=AfmBOopHiNlFCvwZMa-awRfJnO7HYnrBu95LsXbc_cnN_9TyI6LgVBV3)
 
-###Таблица с обнаруженными уязвимостями по OWASP Top 10:
+### Таблица с обнаруженными уязвимостями по OWASP Top 10:
 | №  | Уровень риска | Уязвимость                                  | OWASP                                          | Уязвимая ИС (port) |
 |----|---------------|---------------------------------------------|------------------------------------------------|--------------------|
 | 1  | Критический   | SQL Injection                               | [A03:2021-Injection](https://owasp.org/Top10/A03_2021-Injection/)                        | 8050, 7788         |
