@@ -31,9 +31,9 @@ ___
 
 **OWASP:** [A05:2021-Security Misconfiguration](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)
 
-**Уровень риска:**
+**Уровень риска:** Критический
 
-**Целевая страница:**
+**Целевая страница:** `http://92.51.39.106:8050/upload/`
 
 **Краткое описание:**
 
