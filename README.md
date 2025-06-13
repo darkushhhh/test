@@ -1,34 +1,3 @@
-# Этап №1. OSINT
-
-## Инструменты OSINT
-
-Для анализа и сбора данных об указанном IP-адресе были использованы следующие инструменты:
-- [Shodan](https://www.shodan.io)
-- [Censys Search](https://search.censys.io)
-- [ZoomEye](https://www.zoomeye.ai)
-
----
-
-## Сканирование IP-адреса
-
-### 1. Shodan
-
-**Входные данные:**
-- IP-адрес: `92.51.39.106`
-
-**Результаты сканирования:**  
-<details>
-<summary>screenshot Shodan</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
-</details>
-
-**Вывод:**  
-
-Обнаружен открытый порт с развернутым сервисом:  
-- **22 (SSH)** — OpenBSD OpenSSH 8.2
-
----
-
 # Этап №2. Scanning
 
 ## Инструменты Scanning
@@ -294,8 +263,6 @@ ___
 - Cookie without Same Site Attribute
 - Path Traversal
 - Directory Browsing
-
-___
 
 #### Beemer (7788)
 
