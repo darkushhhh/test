@@ -53,4 +53,6 @@ ___
 
 ---
 
-## 1. Тестирование NetologyVulnApp.com (8050)
+## Тестирование NetologyVulnApp.com (8050)
+
+### 1. Vulnerability - **Path Traversal**
