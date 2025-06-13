@@ -49,16 +49,15 @@ ___
 Переходим на страницу авторизации **Admin**:
 `http://92.51.39.106:8050/admin/index.php?page=login`
     
-![](screenshots/OSINT/Censys/censys1.png)
+![](screenshots/TESTING/Weak_Admin_Password/log.png)
 
 
 - **Step 2. Получаем доступ**
 
 Вводим стандартную комбинацию логин/пароль : `admin/admin`
 
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/TESTING/Weak_Admin_Password/log_result.png)
    
-
 
 - **Вывод**
     
