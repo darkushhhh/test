@@ -78,6 +78,8 @@ curl "http://92.51.39.106:8050/admin/index.php?page=php://filter/read=convert.ba
     
 Исходный код страницы получен, **уязвимость подтверждена**.
 
+Исходный код страницы `/include/admins` : [admins]().
+
 </details>
 
 **Рекомендации по устранению:**
