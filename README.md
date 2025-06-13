@@ -29,9 +29,9 @@ ___
 
 **OWASP:** [A07:2021-Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
 
-**Уровень риска:**
+**Уровень риска:** Средний
 
-**Целевая страница:**
+**Целевая страница:** `http://92.51.39.106:8050/admin/index.php?page=login`
 
 **Краткое описание:**
 
