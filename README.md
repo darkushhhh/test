@@ -36,7 +36,7 @@ nmap -A -sV --version-all -O -p 8050 --reason -T4 --defeat-rst-ratelimit 92.51.3
 
 Полная версия отчета Nmap (8050) - [NmapReport_8050]()
 
-___
+---
 
 ### Beemer (7788)
 
@@ -87,7 +87,7 @@ nikto -host http://92.51.39.106:8050 -output output.html -Format htm
 
 Полная версия отчета Nikto (8050) - [NiktoReport_8050]()
 
-___
+---
 
 ### Beemer (7788)
 
@@ -135,7 +135,7 @@ gobuster dir -u http://92.51.39.106:8050 -w dirbrute.txt -t 50 -o output.html -f
 
 Полная версия отчета Gobuster (8050) - [GobusterReport_8050]()
 
-___
+---
 
 ### Beemer (7788)
 
@@ -182,7 +182,7 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:8050/FUZZ -t 50 -o output.html -of h
 
 Полная версия отчета FFUF (8050) - [FFUFReport_8050]()
 
-___
+---
 
 ### Beemer (7788)
 
@@ -227,7 +227,7 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:7788/FUZZ -t 50 -o output.html -of h
 
 Полная версия отчета ZAP (8050) - [ZAPReport_8050]()
 
-___
+---
 
 ### Beemer (7788)
 **Цель:**  
@@ -276,7 +276,7 @@ ___
 - Path Traversal
 - Directory Browsing
 
-___
+---
 
 ### 2. Потенциально опасные директории и файлы
 
@@ -290,3 +290,11 @@ ___
 #### Beemer (7788)
 
 - Не выявлено
+
+---
+
+## Перейти к следующей странице
+ 
+Далее: Этап №2. [**SCANNING**](./SCANNING.md)
+
+---
