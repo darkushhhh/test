@@ -40,6 +40,7 @@ ___
 Уязвимость **Unrestricted File Upload** позволяет загружать на веб-ресурс произвольные файлы, включая вредоносные, такие как шеллы, скрипты и другие типы файлов, которые изначально не предназначены для обработки. В рамках исследования этой уязвимости будет использован PHP-shell.
 
 **Реализация:**
+
 <details>
 <summary>Пошаговая реализация</summary>
 
@@ -50,8 +51,6 @@ ___
 В моем случае это open-source PHP shell - [wso-webshell](https://github.com/mIcHyAmRaNe/wso-webshell)
 
 ![](screenshots/SCANNING/nmap/nmap_8050.png)
-
-</details>
 
 - **Step 2. Возможность доступа**
 
