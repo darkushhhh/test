@@ -28,13 +28,13 @@ nmap -A -sV --version-all -O -p 8050 --reason -T4 --defeat-rst-ratelimit 92.51.3
 **Результаты сканирования:**  
 <details>
 <summary>screenshot Nmap(8050)</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
+![](screenshots/SCANNING/nmap/nmap_8050.png)
 </details>
 
 **Вывод:**  
 Сканер Nmap подтвердил данные, ранее полученные с помощью инструмента Censys Search, относительно конфигурации сервиса, развернутого на порте `8050`.
 
-Полная версия отчета Nmap (8050) - [NmapReport_8050]()
+Полная версия отчета Nmap (8050) - [NmapReport_8050](reports/nmap/nmap_report.txt)
 
 ---
 
@@ -51,7 +51,7 @@ nmap -A -sV --version-all -O -p 7788 --reason -T4 --defeat-rst-ratelimit 92.51.3
 **Результаты сканирования:**  
 <details>
 <summary>screenshot Nmap(7788)</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
+![](screenshots/SCANNING/nmap/nmap_7788.png)
 </details>
 
 **Вывод:**  
@@ -60,7 +60,7 @@ nmap -A -sV --version-all -O -p 7788 --reason -T4 --defeat-rst-ratelimit 92.51.3
 Также сканером Nmap был просканирован весь целевой адрес `92.51.39.106`, на наличие других, ранее не обнаруженных портов, но конкретных результатов это не дало.  
 Предполагается, что на хосте установлена система предотвращения вторжений, которая и блокирует попытку более глубинного сканирования.
 
-Полная версия отчета Nmap (7788) - [NmapReport_7788]()
+Полная версия отчета Nmap (7788) - [NmapReport_7788](reports/nmap/nmap_report.txt)
 
 ---
 
@@ -79,13 +79,13 @@ nikto -host http://92.51.39.106:8050 -output output.html -Format htm
 **Результаты сканирования:**  
 <details>
 <summary>screenshot Nikto(8050)</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
+![](screenshots/SCANNING/nikto/nikto_8050.png)
 </details>
 
 **Вывод:**  
 Сканер Nikto выявил ряд уязвимостей в веб-приложениях, варьирующихся от незначительных до потенциально критических. Однако для подтверждения их наличия и исключения ложноположительных результатов требуется проведение ручного тестирования.  
 
-Полная версия отчета Nikto (8050) - [NiktoReport_8050]()
+Полная версия отчета Nikto (8050) - [NiktoReport_8050](reports/nikto/8050_nikto_report.html)
 
 ---
 
@@ -102,13 +102,13 @@ nikto -host http://92.51.39.106:7788 -output output.html -Format htm
 **Результат:**  
 <details>
 <summary>screenshot Nikto(7788)</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
+![](screenshots/SCANNING/nikto/nikto_7788.png)
 </details>
 
 **Вывод:**  
 Сканер Nikto выявил ряд уязвимостей в веб-приложениях, варьирующихся от незначительных до потенциально критических. Однако для подтверждения их наличия и исключения ложнопозитивных результатов требуется проведение ручного тестирования.  
 
-Полная версия отчета Nikto (7788) - [NiktoReport_7788]()
+Полная версия отчета Nikto (7788) - [NiktoReport_7788](reports/nikto/7788_nikto_report.html)
 
 ---
 
@@ -127,13 +127,13 @@ gobuster dir -u http://92.51.39.106:8050 -w dirbrute.txt -t 50 -o output.html -f
 **Результат:**  
 <details>
 <summary>screenshot Gobuster(8050)</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
+![](screenshots/SCANNING/gobuster/gobuster_8050.png)
 </details>
 
 **Вывод:**  
 В ходе анализа с использованием сканера Gobuster были выявлены несколько директорий, которые своим существованием и доступностью могут представлять угрозу для веб-приложения. Для исключения false-positive результатов необходимо провести ручную проверку обнаруженных директорий.  
 
-Полная версия отчета Gobuster (8050) - [GobusterReport_8050]()
+Полная версия отчета Gobuster (8050) - [GobusterReport_8050](reports/gobuster/8050_gobuster_report.html)
 
 ---
 
@@ -150,13 +150,13 @@ gobuster dir -u http://92.51.39.106:7788 -w dirbrute.txt -t 50 -o output.html -f
 **Результат:**  
 <details>
 <summary>screenshot Gobuster(7788)</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
+![](screenshots/SCANNING/gobuster/gobuster_7788.png)
 </details>
 
 **Вывод:**  
 В ходе анализа с использованием сканера Gobuster не были выявлены скрытые и потенциально опасные директории, но вероятность их существования все равно присутствует. Необходимо провести сканирование другим инструментом, а также провести ручное тестирование.  
 
-Полная версия отчета Gobuster (7788) - [GobusterReport_7788]()
+Полная версия отчета Gobuster (7788) - [GobusterReport_7788](reports/gobuster/7788_gobuster_report.html)
 
 ---
 
@@ -174,13 +174,13 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:8050/FUZZ -t 50 -o output.html -of h
 **Результат:**  
 <details>
 <summary>screenshot FFUF(8050)</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
+![](screenshots/SCANNING/ffuf/ffuf_8050.png)
 </details>
 
 **Вывод:**  
 В процессе сканирования утилитой FFUF были обнаружены несколько директорий и файлов, которые могут представлять потенциальную угрозу для безопасности веб-приложения из-за их доступности. Для исключения false-positive результатов будет проведено ручное тестирование.  
 
-Полная версия отчета FFUF (8050) - [FFUFReport_8050]()
+Полная версия отчета FFUF (8050) - [FFUFReport_8050](reports/ffuf/8050_ffuf_report.html)
 
 ---
 
@@ -197,13 +197,13 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:7788/FUZZ -t 50 -o output.html -of h
 **Результат:**  
 <details>
 <summary>screenshot FFUF(7788)</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
+![](screenshots/SCANNING/ffuf/ffuf_7788.png)
 </details>
 
 **Вывод:**  
 В процессе сканирования утилитой FFUF были обнаружены несколько директорий и файлов, которые могут представлять потенциальную угрозу для безопасности веб-приложения из-за их доступности. Для исключения false-positive результатов будет проведено ручное тестирование.  
 
-Полная версия отчета FFUF (7788) - [FFUFReport_7788]()
+Полная версия отчета FFUF (7788) - [FFUFReport_7788](reports/ffuf/7788_ffuf_report.html)
 
 ---
 
@@ -219,13 +219,13 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:7788/FUZZ -t 50 -o output.html -of h
 **Результат:**  
 <details>
 <summary>screenshot ZAP(8050)</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
+![](screenshots/SCANNING/ZAP/zap_8050.png)
 </details>
 
 **Вывод:**  
 В ходе автоматического сканирования с использованием OWASP ZAP были выявлены уязвимости, которым подвержено целевое веб-приложение. Обнаруженные уязвимости варьируются по степени критичности от незначительных до критических.  
 
-Полная версия отчета ZAP (8050) - [ZAPReport_8050]()
+Полная версия отчета ZAP (8050) - [ZAPReport_8050](reports/zap/8050_zap_report.html)
 
 ---
 
@@ -239,13 +239,13 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:7788/FUZZ -t 50 -o output.html -of h
 **Результат:**  
 <details>
 <summary>screenshot ZAP(7788)</summary>
-![](screenshots/OSINT/Shodan/shodan.png)
+![](screenshots/SCANNING/ZAP/zap_7788.png)
 </details>
 
 **Вывод:**  
 В ходе автоматического сканирования с использованием OWASP ZAP были выявлены уязвимости, которым подвержено целевое веб-приложение. Обнаруженные уязвимости варьируются по степени критичности от незначительных до критических.  
 
-Полная версия отчета ZAP (7788) - [ZAPReport_7788]()
+Полная версия отчета ZAP (7788) - [ZAPReport_7788](reports/zap/7788_zap_report.html)
 
 ---
 
