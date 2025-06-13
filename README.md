@@ -50,31 +50,31 @@ ___
 
 В моем случае это open-source PHP shell - [wso-webshell](https://github.com/mIcHyAmRaNe/wso-webshell)
 
-![](screenshots/OSINT/Censys/censys1.png)
+![](screenshots/TESTING/Unrestricted_File_Upload/8050/upload_file.png)
 
 - **Step 2. Возможность доступа**
 
 Ранее на этапе сканирования веб-приложений, инструментом `FFUF`, была обнаружена уязвимая директория `/upload`, в которой и располагается наш ранее установленный shell.
 
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/TESTING/Unrestricted_File_Upload/8050/upload_url.png)
     
 - **Step 3. Запуск PHP-shell**
 
 Открываем файл `wsoshell.php`
 
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/TESTING/Unrestricted_File_Upload/8050/pass.png)
     
 - **Step 4. Авторизация**
 
 Вводим стандартный пароль `ghost287` и попадаем в графический интерфейс shell, в котором в дальнейшем и будем выполнять наши действия.
     
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/TESTING/Unrestricted_File_Upload/8050/shell.png)
     
 - **Step 5. Доступ к "чувствительным данным"**
     
 Имея хоть и ограниченный, но довольно высокий уровень доступа, пробуем просмотреть файл `/etc/passwd`
     
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/TESTING/Unrestricted_File_Upload/8050/passwd.png)
 
 - **Вывод**
     
