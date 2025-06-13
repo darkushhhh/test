@@ -50,7 +50,7 @@ ___
 
 В моем случае это open-source PHP shell - [wso-webshell](https://github.com/mIcHyAmRaNe/wso-webshell)
 
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/OSINT/Censys/censys1.png)
 
 - **Step 2. Возможность доступа**
 
@@ -80,7 +80,6 @@ ___
 
 (wso-webshell имеет гораздо больший функционал и возможности для дальнейшей эскалации, но в рамках выполнения дипломной работы, дальнейшая эскалация и нарушение работы приложения будут излишней.)
 </details>
-
 **Рекомендации по устранению:**
 
 ___
