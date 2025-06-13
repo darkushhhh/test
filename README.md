@@ -57,7 +57,7 @@ ___
 
 ### 1. Vulnerability - Unrestricted File Upload
 
-**OWASP:** A05:2021-Security Misconfiguration
+**OWASP:** [A05:2021-Security Misconfiguration](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)
 
 **Уровень риска:**
 
@@ -71,7 +71,7 @@ ___
 
 ### 2. Vulnerability - Path Traversal
 
-**OWASP:** A01:2021-Broken Access Control
+**OWASP:** [A01:2021-Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
 
 **Уровень риска:**
 
@@ -85,7 +85,7 @@ ___
 
 ### 3. Vulnerability - Weak Admin Password
 
-**OWASP:** A07:2021-Identification and Authentication Failures
+**OWASP:** [A07:2021-Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
 
 **Уровень риска:**
 
@@ -99,7 +99,7 @@ ___
 
 ### 4. Vulnerability - Insecure Transmission of Sensitive Data
 
-**OWASP:** A02:2021 – Cryptographic Failures
+**OWASP:** [A02:2021 – Cryptographic Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/)
 
 **Уровень риска:**
 
@@ -113,7 +113,7 @@ ___
 
 ### 5. Vulnerability - SQL Injection
 
-**OWASP:** A03:2021-Injection
+**OWASP:** [A03:2021-Injection](https://owasp.org/Top10/A03_2021-Injection/)
 
 **Уровень риска:**
 
@@ -127,7 +127,7 @@ ___
 
 ### 6. Vulnerability - Brute Force Attack 
 
-**OWASP:** A07:2021-Identification and Authentication Failures
+**OWASP:** [A07:2021-Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
 
 **Уровень риска:**
 
@@ -141,7 +141,7 @@ ___
 
 ### 7. Vulnerability - Cross-Site Scripting (XSS)
 
-**OWASP:** A03:2021-Injection
+**OWASP:** [A03:2021-Injection](https://owasp.org/Top10/A03_2021-Injection/)
 
 **Уровень риска:**
 
@@ -155,7 +155,7 @@ ___
 
 ### 8. Vulnerability - Session Hijacking Attack 
 
-**OWASP:** A07:2021-Identification and Authentication Failures
+**OWASP:** [A07:2021-Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
 
 **Уровень риска:**
 
