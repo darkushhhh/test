@@ -27,7 +27,7 @@ nmap -A -sV --version-all -O -p 8050 --reason -T4 --defeat-rst-ratelimit 92.51.3
 
 **Результаты сканирования:**  
 <details>
-<summary>screenshot Shodan</summary>
+<summary>screenshot Nmap(8050)</summary>
 ![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
@@ -50,7 +50,7 @@ nmap -A -sV --version-all -O -p 7788 --reason -T4 --defeat-rst-ratelimit 92.51.3
 
 **Результаты сканирования:**  
 <details>
-<summary>screenshot Shodan</summary>
+<summary>screenshot Nmap(7788)</summary>
 ![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
@@ -78,7 +78,7 @@ nikto -host http://92.51.39.106:8050 -output output.html -Format htm
 
 **Результаты сканирования:**  
 <details>
-<summary>screenshot Shodan</summary>
+<summary>screenshot Nikto(8050)</summary>
 ![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
@@ -101,7 +101,7 @@ nikto -host http://92.51.39.106:7788 -output output.html -Format htm
 
 **Результат:**  
 <details>
-<summary>screenshot Shodan</summary>
+<summary>screenshot Nikto(7788)</summary>
 ![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
@@ -126,7 +126,7 @@ gobuster dir -u http://92.51.39.106:8050 -w dirbrute.txt -t 50 -o output.html -f
 
 **Результат:**  
 <details>
-<summary>screenshot Shodan</summary>
+<summary>screenshot Gobuster(8050)</summary>
 ![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
@@ -149,7 +149,7 @@ gobuster dir -u http://92.51.39.106:7788 -w dirbrute.txt -t 50 -o output.html -f
 
 **Результат:**  
 <details>
-<summary>screenshot Shodan</summary>
+<summary>screenshot Gobuster(7788)</summary>
 ![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
@@ -173,7 +173,7 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:8050/FUZZ -t 50 -o output.html -of h
 
 **Результат:**  
 <details>
-<summary>screenshot Shodan</summary>
+<summary>screenshot FFUF(8050)</summary>
 ![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
@@ -196,7 +196,7 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:7788/FUZZ -t 50 -o output.html -of h
 
 **Результат:**  
 <details>
-<summary>screenshot Shodan</summary>
+<summary>screenshot FFUF(7788)</summary>
 ![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
@@ -207,7 +207,7 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:7788/FUZZ -t 50 -o output.html -of h
 
 ---
 
-## 5. Сканирование с использованием OWASP ZAP
+## 5. Сканирование с использованием ZAP
 
 ### NetologyVulnApp.com (8050)
 **Цель:**  
@@ -218,7 +218,7 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:7788/FUZZ -t 50 -o output.html -of h
 
 **Результат:**  
 <details>
-<summary>screenshot Shodan</summary>
+<summary>screenshot ZAP(8050)</summary>
 ![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
@@ -238,7 +238,7 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:7788/FUZZ -t 50 -o output.html -of h
 
 **Результат:**  
 <details>
-<summary>screenshot Shodan</summary>
+<summary>screenshot ZAP(7788)</summary>
 ![](screenshots/OSINT/Shodan/shodan.png)
 </details>
 
