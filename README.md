@@ -295,6 +295,6 @@ ffuf -w dirbrute.txt -u http://92.51.39.106:7788/FUZZ -t 50 -o output.html -of h
 
 ## Перейти к следующей странице
  
-Далее: Этап №2. [**SCANNING**](./SCANNING.md)
+Далее: Этап №3. [**TESTING**](./TESTING.md)
 
 ---
