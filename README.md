@@ -57,7 +57,7 @@ ___
 
 ### 1. Vulnerability - Unrestricted File Upload
 
-**OWASP:**
+**OWASP:** A05:2021-Security Misconfiguration
 
 **Уровень риска:**
 
@@ -71,7 +71,7 @@ ___
 
 ### 2. Vulnerability - Path Traversal
 
-**OWASP:**
+**OWASP:** A01:2021-Broken Access Control
 
 **Уровень риска:**
 
@@ -85,7 +85,7 @@ ___
 
 ### 3. Vulnerability - Weak Admin Password
 
-**OWASP:**
+**OWASP:** A07:2021-Identification and Authentication Failures
 
 **Уровень риска:**
 
@@ -99,7 +99,7 @@ ___
 
 ### 4. Vulnerability - Insecure Transmission of Sensitive Data
 
-**OWASP:**
+**OWASP:** A02:2021 – Cryptographic Failures
 
 **Уровень риска:**
 
@@ -113,7 +113,7 @@ ___
 
 ### 5. Vulnerability - SQL Injection
 
-**OWASP:**
+**OWASP:** A03:2021-Injection
 
 **Уровень риска:**
 
@@ -127,7 +127,7 @@ ___
 
 ### 6. Vulnerability - Brute Force Attack 
 
-**OWASP:**
+**OWASP:** A07:2021-Identification and Authentication Failures
 
 **Уровень риска:**
 
@@ -141,7 +141,7 @@ ___
 
 ### 7. Vulnerability - Cross-Site Scripting (XSS)
 
-**OWASP:**
+**OWASP:** A03:2021-Injection
 
 **Уровень риска:**
 
@@ -155,7 +155,7 @@ ___
 
 ### 8. Vulnerability - Session Hijacking Attack 
 
-**OWASP:**
+**OWASP:** A07:2021-Identification and Authentication Failures
 
 **Уровень риска:**
 
