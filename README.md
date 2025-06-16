@@ -47,14 +47,14 @@ ___
 Переходим на страницу авторизации пользователя и отправляем запрос:
 `http://92.51.39.106:8050/users/login.php`
     
-![](screenshots/OSINT/Censys/censys1.png)
+![](screenshots/TESTING/Sensitive_Data/login.png)
 
 
 - **Step 2. Перехват трафика**
 
 С помощью программы Burp Suite осуществляем перехват аутентификационных данных пользователя:
 
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/TESTING/Sensitive_Data/burp.png)
    
 
 
