@@ -50,7 +50,7 @@ ___
 <script>alert(document.cookie)</script>
 ```
 
-![](screenshots/TESTING/XSS/8050)
+![](screenshots/TESTING/XSS/8050/view.png)
 
 
     
@@ -62,7 +62,7 @@ ___
 <script>alert(document.cookie)</script>
 ```
 
-![](screenshots/TESTING/XSS/8050)
+![](screenshots/TESTING/XSS/8050/guestbook.png)
    
 
 
