@@ -42,7 +42,7 @@ ___
 
 В моем случае это open-source PHP shell - [p0wny-shell](https://github.com/flozz/p0wny-shell)
 
-![](screenshots/TESTING/Unrestricted_File_Upload/8050/upload_file.png)
+![](screenshots/TESTING/Unrestricted_File_Upload/7788/name_shell.png)
 
 - **Step 2. Возможность доступа**
 
@@ -50,13 +50,13 @@ ___
 
 Путь до **p0wny-shell**: `http://92.51.39.106:7788/read?file=../../../../../../tmp/g253hv.php`
 
-![](screenshots/TESTING/Unrestricted_File_Upload/8050/upload_url.png)
+![](screenshots/TESTING/Unrestricted_File_Upload/7788/find_php.png)
     
 - **Step 3. Запуск PHP-shell**
 
 Переходим по ранее обнаруженному пути до шелла и запускаем его:
 
-![](screenshots/TESTING/Unrestricted_File_Upload/8050/pass.png)
+![](screenshots/TESTING/Unrestricted_File_Upload/7788/powny_shell.png)
     
     
 
