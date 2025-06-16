@@ -54,6 +54,7 @@ PHPSESSID = `gslch34c1r3fhq1buc1ln99if5`
 - **Step 2. Реализация Session Hijacking**
 
 Для проведения атаки перехвата сессии, необходимо подменить cookie текущего пользователя на cookie, ранее полученные в результате эксплуатации XSS. 
+
 Идентификатор сессии пользователя **Admin**: `PHPSESSID=gslch34c1r3fhq1buc1ln99if5 `.
 
 
