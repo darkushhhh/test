@@ -36,25 +36,17 @@ ___
 <details>
 <summary>Пошаговая реализация</summary>
 
-- **Step 1. XSS на странице View.php**
+- **XSS реализация**
     
-Для реализации уязвимости на странице `http://92.51.39.106:8050/pictures/view.php`, была использована полезная нагрузка, которая выполняет JavaScript-код, вызывающий функцию Alert, в качестве содержимого окна выводится значение `document.cookie` пользователя:
+Для реализации уязвимости на странице `http://92.51.39.106:7788/search`, была использована полезная нагрузка, которая выполняет JavaScript-код, вызывающий функцию Alert, в качестве содержимого окна выводится значение `document.cookie` пользователя:
 
 ```
-<script>alert(document.cookie)</script>
+<script>alert(document.cookie)</script> 
 ```
 
-![](screenshots/TESTING/XSS/8050/view.png)
+![](screenshots/TESTING/XSS/7788/search.png)
   
-- **Step 2. XSS на странице Guestbook.php**
 
-Для реализации уязвимости на странице `http://92.51.39.106:8050/guestbook.php`, была использована полезная нагрузка, которая выполняет JavaScript-код, вызывающий функцию Alert, в качестве содержимого окна выводится значение `document.cookie` пользователя:    
-
-```
-<script>alert(document.cookie)</script>
-```
-
-![](screenshots/TESTING/XSS/8050/guestbook.png)
    
 - **Вывод**
     
