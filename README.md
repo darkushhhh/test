@@ -28,7 +28,7 @@ ___
 
 **OWASP:** [A03:2021-Injection](https://owasp.org/Top10/A03_2021-Injection/)
 
-**Уровень риска:**
+**Уровень риска:** Средний
 
 **Целевая страница:** `http://92.51.39.106:8050/pictures/view.php` , `http://92.51.39.106:8050/guestbook.php`
 
