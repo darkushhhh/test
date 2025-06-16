@@ -45,14 +45,16 @@ ___
     
 Для проверки целевого веб-ресурса на наличие уязвимостей типа SQL-инъекций был использован инструмент `sqlmap`. Данный инструмент позволяет в автоматическом режиме выявлять уязвимости, связанные с некорректной обработкой SQL-запросов.
     
-![](screenshots/OSINT/Censys/censys1.png)
+![](screenshots/TESTING/SQL_Injection/8050/sqlmap.png)
 
 
 - **Step 2. Реализация SQLi**
 
 В результате анализа было выявлено, что тестируемая веб-страница уязвима к атакам типа **SQLi**. Для подтверждения уязвимости на странице авторизации была введена следующая SQL-команда: `' OR TRUE #`.
 
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/TESTING/SQL_Injection/8050/sample_log.png)
+
+![](screenshots/TESTING/SQL_Injection/8050/sample.pmg)
    
 
 - **Вывод**
