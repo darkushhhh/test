@@ -19,7 +19,7 @@ ___
 
 ___
 
-### 5. Vulnerability - SQL Injection
+### 4. Vulnerability - SQL Injection
 
 **OWASP:** [A03:2021-Injection](https://owasp.org/Top10/A03_2021-Injection/)
 
