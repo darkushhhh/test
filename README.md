@@ -46,8 +46,9 @@ ___
 Для выполнения атаки типа "грубый перебор" (brute-force) был применён инструмент `Hydra`, специально разработанный для автоматизации подобных атак. В качестве входных данных использовались предварительно подготовленные списки возможных логинов и паролей, так называемые **"словари"**.
     
 Для проведения атаки были использованы следующие общедоступные словари:
-- [login dictionary]()
-- [pass dictionary]()
+- [login dictionary](other/dictionaries/usernames.txt)
+- [pass dictionary](other/dictionaries/passwords.txt)
+
 
 
 - **Step 2. Brute-force attack**
@@ -58,7 +59,7 @@ ___
 hydra -l admin -P passwords.txt -s 8050 -t 4 -v -f 92.51.39.106 http-post-form "/users/login.php:username=^USER^&password=^PASS^:F=The username/password combination you have entered is invalid"    
 ```
 
-![](screenshots/SCANNING/nmap/nmap_8050.png)
+![](screenshots/TESTING/Brute_Force_Attack/8050/brute_admin.png)
    
 
 - **Вывод**
