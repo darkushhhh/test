@@ -38,9 +38,9 @@ ___
 
 - **Step 1. Загрузка файла**
     
-Переходим на страницу загрузки файла и заполняем все обязательные поля формы. Название и описание файла не имеют значения. В окне выбора файла выбираем заранее подготовленный PHP-шелл.
+Переходим на страницу загрузки файла и в окне выбора файла выбираем заранее подготовленный PHP-шелл.
 
-В моем случае это open-source PHP shell - [wso-webshell](https://github.com/mIcHyAmRaNe/wso-webshell)
+В моем случае это open-source PHP shell - [p0wny-shell](https://github.com/flozz/p0wny-shell)
 
 ![](screenshots/TESTING/Unrestricted_File_Upload/8050/upload_file.png)
 
