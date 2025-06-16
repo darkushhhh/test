@@ -19,7 +19,7 @@ ___
 
 ___
 
-### 2. Vulnerability - Path Traversal
+### 1. Vulnerability - Path Traversal
 
 **OWASP:** [A01:2021-Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
 
