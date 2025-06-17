@@ -19,7 +19,7 @@ ___
 
 ___
 
-### 7. Vulnerability - Cross-Site Scripting (XSS)
+### 8. Vulnerability - Exposed credentials in public GitHub repository
 
 **OWASP:** [A03:2021-Injection](https://owasp.org/Top10/A03_2021-Injection/)
 
