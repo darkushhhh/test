@@ -42,7 +42,7 @@ ___
     
 Для реализации использовался следующий запрос: `. & cat ./.git/config`
    
-![](screenshots/TESTING/Unrestricted_File_Upload/8050/upload_file.png)
+![](screenshots/TESTING/GitHub/find_git.png)
 
     
 - **Step 2. Исследование репозитория**
@@ -51,7 +51,7 @@ ___
     
 В результате анализа этого файла была найдена ссылка на исходный **GitHub** репозиторий приложения, доступного по ссылке: `https://github.com/ajinabraham/Vulnerable_Tornado_App`
 
-![](screenshots/TESTING/Unrestricted_File_Upload/8050/upload_url.png)
+![](screenshots/TESTING/GitHub/git_code.png)
   
     
 - **Step 3. Проверка учетной записи**
@@ -60,7 +60,7 @@ ___
 
 Для проверки их работоспособности были использованы следующие учетные данные: `sagar / lall0l`
 
-![](screenshots/TESTING/Unrestricted_File_Upload/8050/pass.png)
+![](screenshots/TESTING/GitHub/login_success.png)
     
 
 - **Вывод**
