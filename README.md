@@ -21,9 +21,9 @@ ___
 
 ### 8. Vulnerability - Exposed credentials in public GitHub repository
 
-**OWASP:** [A03:2021-Injection](https://owasp.org/Top10/A03_2021-Injection/)
+**OWASP:** [A07:2021-Identification and Authentication Failures](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
 
-**Уровень риска:** Средний
+**Уровень риска:** Высокий
 
 **Целевая страница:** `http://92.51.39.106:7788/search`
 
