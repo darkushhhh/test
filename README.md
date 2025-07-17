@@ -17,4 +17,4 @@
 
 | Diploma Title | Issuing Organization | Course Name | Study Period | Credential Link |
 |----------------|----------------------|-------------|--------------|-----------------|
-| Специалист по информационной безопасности | Нетология | Cybersecurity Professional Training | 05.2024 – 07.2025 | [Credential Link](https://example.com/diploma) |
+| Специалист по информационной безопасности | Нетология | [Специалист по информационной безопасности: расширенный курс](https://netology.ru/programs/informationsecurity) | 05.2024 – 07.2025 | [Credential Link](https://example.com/diploma) |
