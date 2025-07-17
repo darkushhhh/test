@@ -1,6 +1,26 @@
-Меня зовут Николай, я специалист в области информационной безопасности.
+## 🛠️ Tech Stack:
+![Kali Linux](https://img.shields.io/badge/-Kali%20Linux-blue?logo=kali-linux&logoColor=white) 
+![Black Arch](https://img.shields.io/badge/-Black%20Arch-black?logo=arch-linux&logoColor=white) 
+![Parrot Security](https://img.shields.io/badge/-Parrot%20Security-teal?logo=parrot-security&logoColor=white) 
+![Docker](https://img.shields.io/badge/-Docker-blue?logo=docker&logoColor=white) 
+![Wireshark](https://img.shields.io/badge/-Wireshark-blue?logo=wireshark&logoColor=white) 
+![Metasploit Framework](https://img.shields.io/badge/-Metasploit%20Framework-red?logo=security&logoColor=white) 
+![Nmap](https://img.shields.io/badge/-Nmap-green?logo=nmap&logoColor=white) 
+![ZAP](https://img.shields.io/badge/-ZAP-purple?logo=owasp&logoColor=white) 
+![Burp Suite](https://img.shields.io/badge/-Burp%20Suite-orange?logo=burp-suite&logoColor=white) 
+![SQLMap](https://img.shields.io/badge/-SQLMap-lightgrey?logo=sqlite&logoColor=white) 
+![Hydra](https://img.shields.io/badge/-Hydra-darkblue?logo=hydra&logoColor=white) 
+![Shodan](https://img.shields.io/badge/-Shodan-red?logo=shodan&logoColor=white) 
+![Censys](https://img.shields.io/badge/-Censys-orange?logo=security&logoColor=white) 
+![FFUF](https://img.shields.io/badge/-FFUF-yellow?logo=linux&logoColor=white) 
+![Hping3](https://img.shields.io/badge/-Hping3-lightgreen?logo=linux&logoColor=white)
 
-- 🔐 Специализируюсь на проведении Penetration testing, Аудите информационных систем, а также анализе и реагировании на инциденты информационной безопасности.
-- 🛡️ Владею методологиями и фреймворками MITRE ATT&CK, Cyber Kill Chain, OSSTMM, OWASP, NIST SP 800, ISO/IEC 270xx.
-- 🎓 Прошел профессиональную переподготовку по программе «Специалист по информационной безопасности» в Нетологии. В настоящее время обучаюсь в обучаюсь в МУ им. С.Ю. Витте по направлению «Кибербезопасность цифрового предприятия».
-- 🚀 Интересуюсь актуальными подходами к обеспечению кибербезопасности, а также постоянно развиваю свои компетенции и применяю их на практике для обеспечения комплексной защиты информационных систем.
+## 📖 Methodologies & Frameworks:
+![MITRE ATT&CK](https://img.shields.io/badge/-MITRE%20ATT%26CK-red?logo=security&logoColor=white) 
+![Cyber Kill Chain](https://img.shields.io/badge/-Cyber%20Kill%20Chain-darkred?logo=security&logoColor=white) 
+![OSSTMM](https://img.shields.io/badge/-OSSTMM-blue?logo=security&logoColor=white) 
+![OWASP](https://img.shields.io/badge/-OWASP-forestgreen?logo=owasp&logoColor=white) 
+![ISO/IEC 270xx](https://img.shields.io/badge/-ISO%2FIEC%20270xx-darkblue?logo=security&logoColor=white) 
+![ФСТЭК](https://img.shields.io/badge/-ФСТЭК-darkgreen?logo=security&logoColor=white) 
+![NIST SP 800](https://img.shields.io/badge/-NIST%20SP%20800-lightgrey?logo=security&logoColor=white) 
+![PCI-DSS](https://img.shields.io/badge/-PCI--DSS-black?logo=security&logoColor=white)
